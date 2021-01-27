@@ -22,7 +22,6 @@ public class Catapult : MonoBehaviour
     private void Awake()
     {
         _instance = this;
-        AddAsteroid();
     }
 
     public Asteroid AddAsteroid()
