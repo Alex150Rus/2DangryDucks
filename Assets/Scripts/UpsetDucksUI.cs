@@ -11,13 +11,13 @@ public class UpsetDucksUI : MonoBehaviour
 	public static UpsetDucksUI Instance { get { return _instance; } }
 
 	[SerializeField]
-	private Text _asteroidsText = null;
+	private Text _asteroidsText;
 
 	[SerializeField]
-	private Text _scoreText = null;
+	private Text _scoreText;
 
 	[SerializeField]
-	private Text _resultText = null;
+	private Text _resultText;
 
 	protected void Awake()
 	{

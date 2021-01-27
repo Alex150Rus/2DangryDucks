@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -96,5 +94,7 @@ public class Asteroid : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         Vector3 trajectory3D = transform.position - _originalPosition;
         Vector2 trajectory2D = -trajectory3D;
         _rigidBody2D.AddForce(trajectory2D * _flightSpeed, ForceMode2D.Force);
+
+        UpsetDucksGame.Instance.Asteroids--;
     }
 }

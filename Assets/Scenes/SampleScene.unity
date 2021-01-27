@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UpsetDuck (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4280249291871293786, guid: cb1565a2a2ca3994ab25fa9e2babd9fa, type: 3}
+      propertyPath: m_TagString
+      value: UpsetDuck
+      objectReference: {fileID: 0}
     - target: {fileID: 8516382357376076467, guid: cb1565a2a2ca3994ab25fa9e2babd9fa, type: 3}
       propertyPath: _hitSprite
       value: 
@@ -331,7 +335,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New Text
+  m_Text: 
 --- !u!114 &426127627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -372,7 +376,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 354.7}
-  m_SizeDelta: {x: 694.39, y: 178.5}
+  m_SizeDelta: {x: 829.4, y: 178.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &498026101 stripped
 SpriteRenderer:
@@ -484,6 +488,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c08050fe90a9ffc49a9136fd46368a63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _worldItemParent: {fileID: 1378908750}
+  _worldItems: []
 --- !u!1 &784435621 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6353625703401840881, guid: d248ed6aa70959c46bcceade5d46bfb3, type: 3}
@@ -819,8 +825,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -184.12, y: -95.899994}
-  m_SizeDelta: {x: 465.1001, y: 116.3}
+  m_AnchoredPosition: {x: -287.3, y: -95.899994}
+  m_SizeDelta: {x: 521.9, y: 116.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1670244919
 MonoBehaviour:
@@ -1041,6 +1047,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UpsetDuck (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4280249291871293786, guid: cb1565a2a2ca3994ab25fa9e2babd9fa, type: 3}
+      propertyPath: m_TagString
+      value: UpsetDuck
+      objectReference: {fileID: 0}
     - target: {fileID: 8516382357376076467, guid: cb1565a2a2ca3994ab25fa9e2babd9fa, type: 3}
       propertyPath: _hitSprite
       value: 
@@ -1186,6 +1196,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4280249291871293786, guid: cb1565a2a2ca3994ab25fa9e2babd9fa, type: 3}
       propertyPath: m_Name
+      value: UpsetDuck
+      objectReference: {fileID: 0}
+    - target: {fileID: 4280249291871293786, guid: cb1565a2a2ca3994ab25fa9e2babd9fa, type: 3}
+      propertyPath: m_TagString
       value: UpsetDuck
       objectReference: {fileID: 0}
     - target: {fileID: 8516382357376076467, guid: cb1565a2a2ca3994ab25fa9e2babd9fa, type: 3}
