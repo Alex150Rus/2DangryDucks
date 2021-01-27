@@ -67,10 +67,14 @@ public class Asteroid : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 
     public void OnPointerDown(PointerEventData eventData)
     {
+        Debug.Log(eventData);
+
         if (_isReleased)
         {
             return;
         }
+
+       
 
         _originalPosition = transform.position;
         _isDragging = true;

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 319362676596005047}
   - component: {fileID: 319362676596005046}
   - component: {fileID: 5380211925474464638}
-  - component: {fileID: 7396735690541882705}
+  - component: {fileID: 1338325455543265127}
   m_Layer: 0
   m_Name: Asteroid
   m_TagString: Untagged
@@ -142,7 +142,7 @@ TargetJoint2D:
   m_MaxForce: 10000
   m_DampingRatio: 1
   m_Frequency: 5
---- !u!114 &7396735690541882705
+--- !u!114 &1338325455543265127
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,3 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6ffa98f62438be438aa6d1a364c2487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MaxDragDistance: 2
+  _targetJoint2D: {fileID: 5380211925474464638}
+  _rigidBody2D: {fileID: 319362676596005047}
+  _flightSpeed: 400
