@@ -26,8 +26,6 @@ public class Crate : MonoBehaviour
 	{
 		if (_worldItem.Health <= 0)
 		{
-			Debug.Log(this);
-			Debug.Log(UpsetDucksGame.Instance);
 			UpsetDucksGame.Instance.DestroyCrate(this);
 		}
 		else
